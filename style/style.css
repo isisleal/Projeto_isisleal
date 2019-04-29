@@ -1,0 +1,338 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+    -webkit-font-smoothing: antialiased !important;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+.main-content{
+    background-image: url(../img/books_1280.jpg);
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:  rgb(214, 207, 207);
+    text-shadow: 1px 1px black;
+}
+
+.navbar{
+    width: 100%;
+    background-color: rgba(57, 52, 80, 0.95); 
+}
+
+.navbar-nav{
+    text-align: right;
+}
+
+.nav-item{
+    text-transform: uppercase;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-family: 'Cinzel', serif;
+}
+
+.logo-text, .logo-text button{
+    background: none;
+    border: none;
+    text-transform: uppercase;
+    font-size: 30px;
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+    color: rgb(183, 182, 184);
+    text-shadow: 1px 1px rgb(226, 226, 226);
+    letter-spacing: 3px;
+   
+}
+
+button{
+    background: none;
+    border: none;
+}
+
+button:active{
+    outline: none;
+}
+
+button:focus{
+    outline: none;
+}
+
+.home{
+    height: 90vh;
+    padding: 40px 20px;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(rgba(255, 255, 255, 0.253), rgba(128, 128, 128, 0.37));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home__btn{
+    border: 1px solid rgb(168, 166, 166);
+    border-radius: 5px;
+    padding: 15px  25px;
+    display: inline-block;
+    text-transform: uppercase;
+    background: rgba(189, 186, 186, 0.219);
+    color: whitesmoke;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.home__btn:hover{
+        color: rgb(231, 229, 229);
+        background: rgba(255, 255, 255, 0.329);
+}
+
+.about{
+    height: 100vh;
+    background: rgba(82, 80, 80, 0.7);
+ }
+
+
+.about img{
+    width: 40%;
+    border-radius: 50%;
+    float: left;
+    border: 3px solid rgba(248, 247, 246, 0.288);
+}
+
+.title{
+    color: rgb(250, 225, 183);
+    color: 'Cinzel', serif;
+    text-shadow: 1px 1px rgb(146, 123, 88);
+    letter-spacing: 4px;
+    font-size: 36px;
+    text-align: center;
+    margin: 0 40px 10px;
+    padding: 0;
+}
+
+.about p{
+    font-size: 13.5px;
+    margin-left: 10px;
+    font-weight: 400;
+}
+
+.about p a{
+    color: rgba(218, 207, 207, 0.904);
+    text-decoration: none;
+}
+
+.contact{
+    height: 90vh;
+    padding: 40px 20px;
+    text-align: center;
+    width: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0.253), rgba(128, 128, 128, 0.37));
+}
+
+.contact-list{
+    color:  rgb(224, 218, 218);
+    text-decoration: none;
+    list-style-type: none;
+    padding: 17px;
+}
+
+.contact-list a{
+    color:  rgb(224, 218, 218);
+    text-decoration: none;
+}
+
+.contact-list-p{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+}
+
+.contact-list-p li{
+    padding: 10px 20px;
+}
+
+.contact-list-c{
+    font-size: 24px;
+}
+
+.li-left a:hover, .li-right a:hover{
+    color: rgb(194, 190, 190);
+    text-decoration: none;
+}
+
+.__credito{
+    float: right;
+}
+
+.p__credito{
+    color: rgb(110, 108, 108);
+    text-decoration: none;
+    font-size: 8px;
+}
+
+.__credito a{
+    text-decoration: none;
+    color: rgba(218, 207, 207, 0.904);
+}
+
+.main-footer{
+    width: 100%;
+    height: 10vh;
+    line-height: 10vh;
+    text-align: center;
+    background: rgba(57, 52, 80, 0.95);
+}
+
+.main-footer p{
+    margin: 0;
+    padding: 0;
+    background:  rgba(57, 52, 80, 0.95);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(177, 161, 131);
+    letter-spacing: 2px;
+}
+
+.main-footer p i{
+    color: rgb(216, 120, 120);
+}
+
+
+
+
+@media(min-width: 900px){
+   
+    .logo-text, .logo-text button{
+       margin-right: 20vw;
+    }
+
+    .about p{
+        font-size: 20px;
+        margin: 20px 40px 40px;
+    }
+
+    .about{
+        height: 100vh;
+        padding: 40px 20px;
+        text-align: center;
+        background: linear-gradient(150deg,  rgba(82, 80, 80, 0.7) 50%, rgba(255, 255, 255, 0.267) 100%);
+    }
+
+    .about img{
+        width: 25%;
+        border-radius: 50%;
+        float: left;
+        margin-top: 20px;
+        margin-left: 20px;
+        border: 10px solid rgba(248, 247, 246, 0.288);
+    }
+
+    .title{
+        color: rgb(250, 225, 183);
+        color: 'Cinzel', serif;
+        text-shadow: 1px 1px rgb(146, 123, 88);
+        letter-spacing: 4px;
+        font-size: 46px;    
+        }
+
+    .contact{
+        height: 90vh;
+        padding: 40px 20px;
+        text-align: center;
+        width: 100%;
+        background: linear-gradient(rgba(255, 255, 255, 0.253), rgba(128, 128, 128, 0.37));
+        display: grid;
+        grid-template-rows: 1fr 3fr;
+        grid-template-columns: 5fr 5fr 1fr;
+    }
+    
+    .title-contact{
+        grid-column: 1 / 4;
+    }
+    
+    .contact-list{
+    list-style-type: none;
+    font-size: 24px;
+    }
+    
+    .contact-list-c{
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        align-content: flex-start;
+        grid-row-gap: 20px;
+        padding-left: 70px;
+    }
+
+    .li-right, .li-right a{
+        text-align: left;
+        padding: 8px;
+        color:  rgb(224, 218, 218);
+    }
+
+    .li-left, .li-left a{
+        text-align: right;
+        font-size: 34px;
+        color:  rgb(224, 218, 218);
+    }
+
+    .li-left a:hover, .li-right a:hover{
+        color: rgb(194, 190, 190);
+        text-decoration: none;
+    }
+
+    .contact-list-p{
+        font-size: 70px;
+        display: flex;
+        padding: 70px 70px 120px 330px;
+        justify-content: space-between;
+        color: rgb(194, 190, 190);
+    }
+
+    .contact-list-p a{
+        color: rgb(194, 190, 190);
+    }
+
+    .contact-list-p a:hover{
+        color:rgb(224, 218, 218);
+        transition: 0.4;
+    }
+        
+    .__credito{
+        width: 120px;
+        height: 30px;
+    }
+        
+    .p__credito{
+        color: rgb(110, 108, 108);
+        text-decoration: none;
+        display: inline-block;
+        font-size: 8px;
+        right: 5px;
+        transform: rotate(90deg);
+        transform-origin: right bottom;
+            
+        }
+    }
+
+
+
+
+@media(min-width: 1200px){
+
+    .logo-text, .logo-text button{
+       margin-right: 28vw;
+    }
+
+    .about p{
+        font-size: 24px;
+        margin: 20px 40px 40px;
+        }
+    }
+ 

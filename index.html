@@ -1,0 +1,145 @@
+<!doctype html>
+
+<html lang="pt-br">
+
+<head>
+  <title> Isis Leal </title>
+  <meta charset="utf-8">
+  <meta name="author" content="Isis">
+  <meta name="description" content="descrição qualquer">
+  <meta name="keywords" content="tecnologia, html, código">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link href="bootstrap-4.3.1-dist/bootstrap-4.3.1-dist/css/bootstrap-grid.css">
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+  <link href="https://fonts.googleapis.com/css?family=Cinzel:400,700" rel="stylesheet">
+
+  <link rel="stylesheet" href="./style/style.css">
+
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-md navbar-dark">
+      <h1 class="logo-text"> <button class="nav-link" onClick="scrollAbout();">Isis Leal</h1></button>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <button class="nav-link" onClick="scrollAbout();">Sobre</button>
+          </li>
+          <li class="nav-item">
+            <button class="nav-link" onClick="scrollCont();">Contato</button>
+          </li>
+
+        </ul>
+
+      </div>
+    </nav>
+    <main class="main-content">
+      <section class="home">
+
+        <h1> Front-end developer</h1>
+        
+        <button class="home__btn" onClick="scrollAbout();">Conheça-me</button>
+
+      </section>
+
+      <section class="about">
+
+        <h1 class="title">Sobre mim</h1>
+
+        <img src="img/IMG_20181231_141711.jpg">
+
+        <p>Olá!
+          Sou Isis, antropóloga e desenvolvedora aprendiz. Sou de Niterói–RJ, onde além de morar, estudei e
+          desenvolvi pesquisas na área de antropologia por quase uma década, tendo me formado em Ciências Sociais e
+          obtido o título de mestra em Antropologia pela Universidade Federal Fluminense. Em 2018, porém, decidi fazer a
+          transição de carreira para a áre de tecnologia. Apesar de grande experiência acadêmica, na qual pude ser pesquisadora, escrever
+          artigos e participar de congressos, meu conhecimento específico em tecnologia era ainda bastante limitado.
+          Depois de muito pesquisar e conversar com pessoas da área sobre como poderia iniciar uma nova carreira, optei por
+          fazer diversos cursos pela internet, o que me possibilitou conhecer novas disciplinas e uma área completamente diferente da minha
+          de origem. Hoje, ainda estudando muito, com conhecimentos em HTML, CSS JavaScript e outras tecnologias,
+          acredito que esteja apta a dar meus primeiros passos como desenvolvedora front-end. Veja um pouco mais do que já
+          aprendi como desenvolvedora em meu <a href="https://www.linkedin.com/in/isis-leal-7187194a">LinkedIn</a> e <a
+            href="https://github.com/isisleal">GitHub</a>.
+        </p>
+
+
+
+      </section>
+
+      <section class="contact">
+        <h1 class="title title-contact"> Contatos </h1>
+
+        <ul class="contact-list contact-list-p">
+          <li><a href="https://www.linkedin.com/in/isis-leal-7187194a"><i class="fab fa-linkedin"></i></a></li>
+          <li><a href="https://github.com/isisleal"><i class="fab fa-github"></i></a></li>
+        </ul>
+
+        <ul class="contact-list contact-list-c">
+          <li class="li-left"><a href="#"><i class="far fa-envelope"></i></a></li>
+          <li class="li-right"><a href="#">isisleal@gmail.com</a> </li>
+          <li class="li-left"><a href="http://api.whatsapp.com/send?1=pt_BR&phone=5521999999474"><i class="fab fa-whatsapp"></i></a></li>
+          <li class="li-right"><a href="http://api.whatsapp.com/send?1=pt_BR&phone=5521999999474">(21) 99999-9474</a></li>
+          <li class="li-left"><a href="https://t.me/isisleal"><i class="fab fa-telegram"></i></a></li>
+          <li class="li-right"><a href="https://t.me/isisleal">@isisleal</a></li>
+
+        </ul>
+
+
+
+        <div class="__credito">
+        <p class="p__credito">Image by <a
+            href="https://pixabay.com/pt/users/StockSnap-894430/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2596809">StockSnap</a>
+          from <a
+            href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2596809">Pixabay</a>
+        </p>
+      </div>
+      </section>
+
+    </main>
+
+
+    <footer class="main-footer">
+      <p>Desenvolvido por <i class="fas fa-heart"></i> Isis Leal</i></p>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+
+      <script>
+
+        function scrollHome() {
+          window.scrollTo(0, 0);
+        }
+
+        function scrollAbout() {
+          window.scrollTo(0, 668);
+        }
+
+        function scrollCont() {
+          window.scrollTo(0, 1350);
+        }
+
+        </script>
+</body>
